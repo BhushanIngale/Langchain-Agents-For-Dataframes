@@ -6,3 +6,5 @@ RUN pip install --upgrade pip && \
     pip install tensorflow-hub && \
     pip install opencv-python && \
     fix-permissions "/home/${NB_USER}"
+
+COPY Neural-Style-Transfer.ipynb gateway.jpg starrynight.pfif ./
